@@ -1,0 +1,39 @@
+/* .heading{
+    width: 85vw;
+    margin: 5px auto;
+    color: #00302f;
+} */
+.heading h1{
+
+text-align: left;
+}
+
+
+.companybox{
+    width: 85vw;
+    height: 65vh;
+    margin: 10px auto;
+    padding: 0 5px;
+    border: 2px solid #a1b285;
+    border-radius: 10px;
+}
+.boxtop{
+display: flex;
+align-items: center;
+border-bottom: 2px solid #a1b285;
+height: 20%;
+}
+.boxtop span{
+    
+    margin-left: auto;
+}
+
+/* 
+light: #a1b285
+dark: #00302f
+*/
+.cards{
+    display: flex;
+    height: 75%;
+   
+}

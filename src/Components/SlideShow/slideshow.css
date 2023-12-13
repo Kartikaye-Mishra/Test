@@ -1,0 +1,77 @@
+.image_box{
+    height:55vh;
+    width: 85vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+img{
+  
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+.react-slideshow-container .default-nav:first-of-type{
+
+    margin-right: -30px;
+    border-right: 0;
+    border-top: 0;
+    border: 2px solid black;
+    margin-left: 2.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+.react-slideshow-container .default-nav:last-of-type {
+    margin-left: -3px;
+    border-right: 0;
+    border-top: 0;
+    border: 2px solid black;
+    margin-right: 2.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.react-slideshow-container .default-nav:last-of-type>svg{
+    margin-left : auto;
+  }
+
+  @media screen  and (min-width: 455px) and (max-width: 730px) {
+    .react-slideshow-container .default-nav:first-of-type{
+        margin-left: 3.5rem;
+    }
+
+    .react-slideshow-container .default-nav:last-of-type {
+        margin-right: 3.5rem;
+    }
+
+}
+  @media screen  and (min-width: 730px) and (max-width: 1024px) {
+
+
+    .react-slideshow-container .default-nav:first-of-type{
+        margin-left: 5.5rem;
+    }
+
+    .react-slideshow-container .default-nav:last-of-type {
+        margin-right: 5.5rem;
+    }
+
+    
+}
+
+  
+@media screen  and (min-width:1024px){
+
+    .react-slideshow-container .default-nav:first-of-type{
+        margin-left: 7.5rem;
+    }
+
+    .react-slideshow-container .default-nav:last-of-type {
+        margin-right: 7.5rem;
+    }
+
+    
+}

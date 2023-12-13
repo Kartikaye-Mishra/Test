@@ -1,0 +1,7 @@
+export {default as Content1} from'./Contents/Content1/Content1'
+export {default as Content2} from'./Contents/Content2/Content2'
+export {default as Navbar} from './Navbar/Navbar'
+export {default as Picture} from './Picture/Picture'
+export {default as Slideshow} from './SlideShow/Slideshow'
+export {default as Search} from './Search/Search'
+export {default as Company} from './Company/Company'

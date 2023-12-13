@@ -1,0 +1,37 @@
+#navbar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #a1b285;
+  
+  
+    z-index: 100;
+   }
+
+  .navul{
+    margin-left: auto;
+   }
+
+.navbar_a{
+
+  color: #00302f;
+  font-size: 1.25rem;
+  margin: 0 33px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:550;
+  font-size: 1.4rem;
+}
+.container-fluid h3,.h3{
+
+    font-weight: bold;
+    color: #00302f;
+}
+.navbar-nav {
+    margin: auto;
+  
+}
+
+.navbar_a:hover{
+    text-decoration: underline;
+}
